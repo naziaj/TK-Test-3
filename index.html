@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  ></meta>
+
+  <title>Document</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  ></link>
+
+  <link
+    rel="stylesheet"
+    href="style-small.css"
+    media="(max-width:600px)"
+  ></link>
+
+  <link
+    rel="stylesheet"
+    href="style-large.css"
+    media="(min-width:800px)"
+  ></link>
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800"
+    rel="stylesheet"
+  ></link>
+
+  <!-- Google Fonts used:
+        - Montserrat -->
+</head>
+
+<body>
+  <form action="logged-in.html">
+    <div>
+      <label for="name">Full Name</label>
+
+      <input
+        id="name"
+        type="text"
+        required="required"
+      ></input>
+    </div>
+
+    <div>
+      <label for="age">Age</label>
+
+      <input
+        id="age"
+        type="number"
+        min="10"
+        max="70"
+        required="required"
+      ></input>
+    </div>
+
+    <div>
+      <label for="email">Email Address</label>
+
+      <input
+        id="email"
+        type="email"
+        required="required"
+      ></input>
+    </div>
+
+    <div>
+      <label for="password-ipt">Password</label>
+
+      <input
+        id="password-ipt"
+        type="password"
+        required="required"
+      ></input>
+    </div>
+
+    <div class="button">
+      <button>Log In</button>
+
+      <a href="#">Forgot your password?</a>
+    </div>
+  </form>
+</body>
+</html>
